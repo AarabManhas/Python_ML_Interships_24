@@ -1,0 +1,15 @@
+# Function to perform basic mathematical operations
+def calculate(expression):
+    try:
+        # Evaluate the mathematical expression
+        result = eval(expression)
+        return result
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+# Sample input
+expression = "2.5+3.6"
+# Get the result of the expression
+result = calculate(expression)
+# Print the result
+print(f"The result of the expression {expression} is: {result}")
