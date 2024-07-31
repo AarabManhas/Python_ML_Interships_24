@@ -10,3 +10,22 @@ def count_values(input_dict):
             value_count[value] = 1
 
     return value_count
+
+# Sample input dictionary
+input_dict = {
+    's1': 'a',
+    's2': 'b',
+    's3': 'a',
+    's4': 'b',
+    's5': 'c',
+    's6': 'b',
+    's7': 'd'
+}
+
+# Count the values
+result = count_values(input_dict)
+
+# Print the result
+for value, count in result.items():
+    print(f"{value}={count}")
+
