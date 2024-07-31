@@ -1,0 +1,9 @@
+def addnum():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    c = a + b
+    print("The sum is:", c)
+
+if __name__ == "__main__":
+    addnum()
+
